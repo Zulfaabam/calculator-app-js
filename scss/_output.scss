@@ -11,6 +11,11 @@
   align-items: flex-end;
   word-wrap: break-word;
   word-break: break-all;
+
+  //540px
+  @media screen and (min-width: 33.75rem) {
+    width: 450px;
+  }
 }
 
 .output-history,

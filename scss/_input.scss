@@ -11,4 +11,10 @@
   align-content: center;
   gap: 15px;
   grid-template-columns: repeat(4, 64px);
+
+  //540px
+  @media screen and (min-width: 33.75rem) {
+    width: 450px;
+    grid-template-columns: repeat(4, 88px);
+  }
 }

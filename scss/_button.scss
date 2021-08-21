@@ -15,6 +15,11 @@
     background-color: $outline-btn;
     color: #636e72;
   }
+
+  //540px
+  @media screen and (min-width: 33.75rem) {
+    width: 88px;
+  }
 }
 
 .btn-reset {
@@ -22,6 +27,11 @@
   grid-column: span 2;
   // box shadow: x y blur spread color
   box-shadow: 0px 5px 10px 0px rgba(118, 185, 196, 0.5);
+
+  //540px
+  @media screen and (min-width: 33.75rem) {
+    width: 191px;
+  }
 }
 
 .btn-sum {
@@ -34,6 +44,11 @@
   &:hover {
     background-color: #ff7675;
     color: whitesmoke;
+  }
+
+  //540px
+  @media screen and (min-width: 33.75rem) {
+    width: 191px;
   }
 }
 
