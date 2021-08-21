@@ -1,0 +1,28 @@
+.output-wrap {
+  background-color: $output-field;
+  margin: 0 12px;
+  border-radius: 10px;
+  width: 350px;
+  min-height: 150px;
+  max-height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.output-history,
+.output-current {
+  color: white;
+  padding: 10px;
+}
+
+.output-history {
+  font-size: 24px;
+}
+
+.output-current {
+  font-size: 48px;
+}

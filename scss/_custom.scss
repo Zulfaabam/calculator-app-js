@@ -1,0 +1,22 @@
+//color
+$background: #34495e;
+$output-field: #2d3436;
+$input-field-border: rgba(141, 116, 214, 0.5);
+$input-field: #2c3e50;
+$outline-btn: #86d3dd;
+$operators: #ff7675;
+$equal-btn: #ea4342;
+
+//font: 24px for btn, 48px for output
+
+//base
+body,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}

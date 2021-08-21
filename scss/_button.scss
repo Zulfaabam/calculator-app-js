@@ -1,0 +1,46 @@
+.input-btn {
+  width: 64px;
+  height: 64px;
+  background-color: $input-field;
+  color: white;
+  border: 2px solid $outline-btn;
+  border-radius: 10px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  font-size: 24px;
+  transition: all 300ms ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $outline-btn;
+    color: #636e72;
+  }
+}
+
+.btn-reset {
+  width: 143px;
+  grid-column: span 2;
+  // box shadow: x y blur spread color
+  box-shadow: 0px 5px 10px 0px rgba(118, 185, 196, 0.5);
+}
+
+.btn-sum {
+  width: 143px;
+  background-color: $equal-btn;
+  border: none;
+  grid-column: span 2;
+  box-shadow: 0px 5px 10px 0px rgba(234, 67, 66, 0.5);
+
+  &:hover {
+    background-color: #ff7675;
+    color: whitesmoke;
+  }
+}
+
+.btn-divide,
+.btn-multiply,
+.btn-plus,
+.btn-minus,
+.btn-delete {
+  color: $operators;
+}

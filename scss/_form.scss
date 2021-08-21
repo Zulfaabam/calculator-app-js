@@ -1,0 +1,17 @@
+body {
+  background-color: $background;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-wrap {
+  margin: 45px 30px 40px 30px;
+}

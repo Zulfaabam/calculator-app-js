@@ -1,0 +1,14 @@
+.input-wrap {
+  background-color: $input-field;
+  border: solid 1px $input-field-border;
+  border-radius: 10px;
+  margin: 30px 12px;
+  padding: 25px 25px 45px 25px;
+  height: 450px;
+  width: 350px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 15px;
+  grid-template-columns: repeat(4, 64px);
+}

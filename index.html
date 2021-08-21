@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/svg"
+      sizes="32x32"
+      href="./images/vector.svg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>cal-cute | Calculator App</title>
+  </head>
+  <body>
+    <main class="form">
+      <!-- logo -->
+      <div class="img-wrap">
+        <img src="./images/logo-2.svg" alt="cal-cute logo" />
+      </div>
+
+      <!-- output field -->
+      <div class="output-wrap">
+        <div data-output-history class="output-history"></div>
+        <div data-output-current class="output-current"></div>
+      </div>
+
+      <!-- input field -->
+      <div class="input-wrap">
+        <button data-number class="input-btn btn-7">7</button>
+        <button data-number class="input-btn btn-8">8</button>
+        <button data-number class="input-btn btn-9">9</button>
+        <button data-delete class="input-btn btn-delete">Del</button>
+        <button data-number class="input-btn btn-4">4</button>
+        <button data-number class="input-btn btn-5">5</button>
+        <button data-number class="input-btn btn-6">6</button>
+        <button data-operation class="input-btn btn-plus">+</button>
+        <button data-number class="input-btn btn-1">1</button>
+        <button data-number class="input-btn btn-2">2</button>
+        <button data-number class="input-btn btn-3">3</button>
+        <button data-operation class="input-btn btn-minus">-</button>
+        <button data-number class="input-btn btn-dot">.</button>
+        <button data-number class="input-btn btn-0">0</button>
+        <button data-operation class="input-btn btn-divide">/</button>
+        <button data-operation class="input-btn btn-multiply">x</button>
+        <button data-reset class="input-btn btn-reset">Reset</button>
+        <button data-sum class="input-btn btn-sum">=</button>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
